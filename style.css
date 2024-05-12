@@ -1,6 +1,15 @@
  *{
   box-sizing: border-box;
  }
+body{
+  background-color: black;
+  color: white;
+}
+ .name{
+  color: rgb(218, 107, 115);
+  font-size: 3rem;
+  font-weight: 900;
+ }
 
  nav{
   display: flex;
@@ -42,6 +51,9 @@
 
 }
 ul li{
+  font-size: large;
+  font-weight: 700;
+  color: rgb(138, 114, 114);
   display: inline;
   margin-left: 40px;
   font-family: sans-serif;
@@ -53,8 +65,8 @@ main{
 }
 .container{
   width: 70%;
-  padding: 3rem;
-  box-shadow: 10px 10px  40px 5px #e0e0e0;
+  /* padding: 3rem; */
+  box-shadow: 10px 10px  10px 10px #1c1b1b;
   margin-top: 5rem;
   display: flex;
   justify-content: space-between;
@@ -62,7 +74,7 @@ main{
 }
 .content-container{
   font-family: sans-serif;
-  font-size: 2rem;
+  font-size: 1rem;
   color: #2c2c2c;
 }
 .content-container p {
@@ -102,4 +114,23 @@ main{
   color: #ff6e00;
   font-family: sans-serif;
   border-radius:100px ;
+}
+.title{
+  color: #ff6e00;
+}
+button{
+ 
+  padding: 10px 20px;
+  background-color: black;
+  border: 2px solid rgb(22, 22, 137);
+  border-radius: 10px;
+  color:white;
+  font-size: large;
+}
+ul li:hover{
+  color: #ff6e00;
+}
+
+.name:hover{
+  color: #ff6e00;
 }
